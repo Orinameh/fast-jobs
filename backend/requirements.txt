@@ -1,3 +1,22 @@
 fastapi
 uvicorn
-jinja2 
+jinja2 #for template
+aiofiles #for serving static files
+
+#for database
+sqlalchemy
+psycopg2
+
+#for loading environment variables
+python-dotenv
+alembic
+pydantic[email]
+#hashing
+passlib[bcrypt]
+
+httpx
+pytest
+requests
+pre-commit
+python-jose==3.3.0
+python-multipart
